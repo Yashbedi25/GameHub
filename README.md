@@ -31,4 +31,3 @@ This project has been proposed and prepared by the team **Bug Buster**.
 * Garv Jindal
 
 ## Screenshots
-![image](https://github.com/Yashbedi25/GameHub/assets/105603754/8ffabb08-4bd3-4637-81c7-a2970fa0363d)
