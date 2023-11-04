@@ -1,4 +1,4 @@
-![image](https://github.com/pvt-jsd/GameHub/assets/121565931/f04faa1d-8208-4d7c-b3cc-bf3e6d1f79fe)<div align="center">
+<div align="center">
 <h1>GameHub</h1>
 This repository contains the project for the hackathon which was organized by Delhi Technology University as Hackout'23 by Headout.
 </div>
