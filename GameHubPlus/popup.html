@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GameHub Extension</title>
+	<link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+	<div class="container">
+
+
+		<div class="header">
+			<div class="logo">GameHub</div>
+			<div class="icons">
+				<a href="https://web.whatsapp.com/" target="_blank">
+					<img src="whatsapp48.png" alt="WhatsApp">
+				</a>
+				<a href="https://discord.com/" target="_blank">
+					<img src="discord.jpg" alt="Discord">
+				</a>
+			</div>
+		</div>
+		<div class="news-and-events">
+			<div class="game-updates">
+				<h2>Game Updates</h2>
+				<p id="news_para1">Loading...</p>
+				<p id="news_para2">Loading...</p>
+				<p id="news_para3">Loading...</p>
+				<p id="news_para4">Loading...</p>
+			</div>
+			<div class="upcoming-events">
+				<h2>Upcoming Events</h2>
+				<ul>
+					<li>
+						World cup 2023
+					</li>
+					<li>
+						Ranbhoomi 2.0.
+					</li>
+					<li>
+						Gaming Fest Season 3
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="stopwatch">
+			<h2>Stopwatch</h2>
+			<div id="stopwatch-display">00:00:00</div>
+			<button id="start-stop">Start</button>
+			<button id="reset">Reset</button>
+		</div>
+		<div class="more-games">
+			<h2>More Games</h2>
+			<div class="game">
+				<img
+					src="https://images.unsplash.com/photo-1595429035839-c99c298ffdde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2864&q=80"
+					alt="Game 3">
+				<p> Super Mario</p>
+				<a href="https://mario.nintendo.com/" target="_blank">Play Now</a>
+			</div>
+			<hr>
+			<div class="game">
+				<img
+					src="https://images.unsplash.com/photo-1586165368502-1bad197a6461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2758&q=80"
+					alt="Game 4">
+				<p>Chess</p>
+				<a href="https://www.chess.com/" target="_blank">Play Now</a>
+			</div>
+		</div>
+		<div class="footer">
+			<p>&copy; 2023 GameHub</p>
+		</div>
+
+	</div>
+	<script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+	<script src="popup.js"></script>
+</body>
+
+</html>

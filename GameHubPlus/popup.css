@@ -1,0 +1,200 @@
+/* Basic styling for the extension popup */
+body {
+    width: 300px;
+    padding: 10px;
+    background-color: #DAFFFB;
+    /* Light gray background */
+    font-family: Arial, sans-serif;
+    color: #333;
+    /* Dark text color */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #176B87;
+    /* Blue logo color */
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    /* Increased spacing between icons */
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    /* Add a smooth opacity transition */
+}
+
+/* Hover effect for icons */
+.icons img:hover {
+    opacity: 0.7;
+}
+
+.middle {
+    display: flex;
+    gap: 10px;
+}
+
+.game-updates,
+.upcoming-events {
+    flex: 1;
+    background-color: #fff;
+    /* White background for sections */
+    padding: 10px;
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+}
+
+.game-updates h2,
+.upcoming-events h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #176B87;
+    /* Blue heading color */
+}
+
+.game-updates {
+    flex: 1;
+    background-color: #fff;
+    /* White background for game updates */
+    padding: 10px;
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+}
+
+.game-updates h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #176B87;
+    /* Blue heading color */
+}
+
+.stopwatch {
+    flex: 1;
+    text-align: center;
+    background-color: #fff;
+    /* White background for stopwatch */
+    padding: 10px;
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+}
+
+.stopwatch h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #176B87;
+    /* Blue heading color */
+}
+
+#stopwatch-display {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    /* Dark text color */
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #176B87;
+    /* Blue button background color */
+    color: #fff;
+    /* White button text color */
+    border: none;
+    border-radius: 3px;
+    /* Slightly rounded corners */
+    transition: background-color 0.3s ease;
+    /* Add a smooth background color transition */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #005f99;
+    /* Darker blue on hover */
+}
+
+.more-games {
+    flex: 1;
+    background-color: #fff;
+    /* White background for more games */
+    padding: 10px;
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+}
+
+.more-games h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #176B87;
+    /* Blue heading color */
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.game img {
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.game p {
+    font-size: 14px;
+    flex: 1;
+    color: #333;
+    /* Dark text color */
+}
+
+.game a {
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #176B87;
+    /* Blue button background color */
+    color: #fff;
+    /* White button text color */
+    text-decoration: none;
+    border-radius: 3px;
+    /* Slightly rounded corners */
+    transition: background-color 0.3s ease;
+    /* Add a smooth background color transition */
+}
+
+/* Hover effect for game links */
+.game a:hover {
+    background-color: #005f99;
+    /* Darker blue on hover */
+}
